@@ -32,10 +32,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.1/announcer.twanmod",
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/announcer.namenyxmod",
         "size": 251026,
         "sha256": "44fe6391734fc593e9197896ebb73aa576416a6cf58a9cb710f8f69d7112c8c4",
-        "signature": "HAulcYARsEwEsJxjIJXAgq+9aMVVYd6L6xZQA4cDwzxKvTvHCMvGC2Ea2525Z/NCiAnxuZroTcuIVMJHRL+kBA=="
+        "signature": "yzJ9f8+hNPtkLmDlfP7zuVbVaJcTbOYU9v27WenWv8S8U3YZsgDRKP2GEDbi5o1O0vmmsmuqFjId28PngA+KCg=="
       },
       "runtimePackage": null
     },
@@ -81,10 +81,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.1/announcer_discord.twanmod",
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/announcer_discord.namenyxmod",
         "size": 243970,
         "sha256": "2455af1744eecb269ed8007ed7a6c29ffbd28041c2c58de33bd35e8bce0cca95",
-        "signature": "oSiZvaqZgItYgZzKOEJYYPHYP3jXMqBS8fyhB00TAS5LvNB5eCSXv8pDsK4gpJfnzYVZlgoToB+C4WAof+eRBQ=="
+        "signature": "8yZcEX4+dZ6nt/XOL3coNMA2NtgByVwVHpHFoTYFe9PfiGxysa05k9QMWi3fU1419Rk8L6HbEBmmQXzgPcttCQ=="
       },
       "runtimePackage": null
     },
@@ -130,10 +130,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.1/announcer_telegram.twanmod",
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/announcer_telegram.namenyxmod",
         "size": 243769,
         "sha256": "f555a2ec8ce0218a1e51fcdba926fbccee89cb564e19da2a3c1417ad0425e74b",
-        "signature": "xdGUbgXl82Yf+sOkYYkfamLuPwJ7dXKT1V0bmwBgSuHLNWSdYCfhK2mFWr4YMeubb4kVskkVSFfE8ITdYnZJAw=="
+        "signature": "quieUN7y03ihOwlDdsrxKAphlqLKVqyorq70mZgg5WwQkPDwpfTD+reyNbYAjxmOqE514XczI+yYaTCuDcmdBQ=="
       },
       "runtimePackage": null
     },
@@ -180,10 +180,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.1/bot_module.twanmod",
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/bot_module.namenyxmod",
         "size": 854685,
         "sha256": "d01ee1d9efb15d4dce4fb721815d9b923afc999786fa4472164d39318e3ae8df",
-        "signature": "j0mkSrg733l4NizKX2wF6073nAQV/sA7fb+elJvls/FWYBxvl2qYLSs32Fon7wzj110tNseBVN+zDh0yOCg5Bw=="
+        "signature": "Cn33T15MmSGfqH4i6dJrOVsiOm5EIiji/uFJUX+e6Xf2lHgXgjGBLt+unZOKpvNBTKOPL+1nOWoL24iNAVH2Bw=="
       },
       "runtimePackage": null
     },
@@ -248,10 +248,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.1/bot_rewards.twanmod",
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/bot_rewards.namenyxmod",
         "size": 190704,
         "sha256": "edeb5c90bde43746e3b40f68bf5a8061ebf747e3c4c5255b89f700971561013e",
-        "signature": "ifwsXq/Sz7J1Dbu8jGoQpJx+mY55pnW20ZTrUhQfz8ZBn2ry6G5lW83jwn3unXVkM4c8ceb80kcj5rLD6BY9Dw=="
+        "signature": "DdhgF9yBUIhIMkSe+YuWAtlADxW9R8sIXRWQpAsFcq0A4wUOrAqeSoGMViFlrzK5dRshnjUwDrkXQRcsjBFACA=="
       },
       "runtimePackage": null
     },
@@ -297,10 +297,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.1/bot_obs.twanmod",
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/bot_obs.namenyxmod",
         "size": 171826,
         "sha256": "3fc36d0e3ef39316167670552c5a20b56519cd4db5d50728894da6d2675c18d3",
-        "signature": "FB+q8WvD7wTgjKbsetKmKqdvIkVxv7sKeD+0zhsqaWDK8kTlzD2FDGcjdO4M9CzgNZeV/+bljujRvNlZ76G+Dw=="
+        "signature": "mzw0wmvktbOGnZpgyDCFahyqV9zc6mkGHnXS0Mun/XjGa1VZCTj0PlCdUFGjaft15JnR/SEd9FpTjM+nebrKCw=="
       },
       "runtimePackage": null
     },
@@ -353,10 +353,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.1/bot_raid_follow.twanmod",
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/bot_raid_follow.namenyxmod",
         "size": 194166,
         "sha256": "5b5a68b5e14dd3f494293618855609d81d62909e3fb7549cd3e548a1f926925d",
-        "signature": "1t9yx3dJvNCFPKJSZ3OKkk66sodXOmld08e8zFoyDlVCg7zFnZ+JW+T6uH39VXm7m6Z3eJCFq3cZfe/BAi07DA=="
+        "signature": "2dj6EdDA4yEG5ZHQIGI+6MEQHhPZNEa08MnQqeLQAuJQrOzu68GSU2zHefELnmwuCt7g1tF8GsavD4zq+AOJBQ=="
       },
       "runtimePackage": null
     }
