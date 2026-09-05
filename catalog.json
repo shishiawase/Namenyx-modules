@@ -5,7 +5,7 @@
       "manifest": {
         "schemaVersion": 1,
         "coreApi": 1,
-        "id": "twitchan.announcer",
+        "id": "namenyx.announcer",
         "displayName": "Announcer",
         "version": "0.1.7",
         "description": "Shows current and previous Twitch stream information and publishes stream lifecycle events for notification add-ons.",
@@ -32,10 +32,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/announcer.namenyxmod",
-        "size": 251026,
-        "sha256": "44fe6391734fc593e9197896ebb73aa576416a6cf58a9cb710f8f69d7112c8c4",
-        "signature": "yzJ9f8+hNPtkLmDlfP7zuVbVaJcTbOYU9v27WenWv8S8U3YZsgDRKP2GEDbi5o1O0vmmsmuqFjId28PngA+KCg=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/announcer.namenyxmod",
+        "size": 250708,
+        "sha256": "d9fac40743711a49767d61322005b470955e4c58e438a88beb42dd63395f8f2e",
+        "signature": "ihKVm3tOtqrcG8v87wbJELANjanqOgb8Y6uslKnH65+MHljZWvZPWuPpE+cm9aCltRfQZE5GIOCJjU/rKvBqDw=="
       },
       "runtimePackage": null
     },
@@ -43,7 +43,7 @@
       "manifest": {
         "schemaVersion": 1,
         "coreApi": 1,
-        "id": "twitchan.announcer.discord",
+        "id": "namenyx.announcer.discord",
         "displayName": "Discord",
         "version": "0.1.9",
         "description": "Sends a Discord webhook notification when Announcer detects a new Twitch stream.",
@@ -51,7 +51,7 @@
         "repository": "https://github.com/shishiawase/Namenyx-modules",
         "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath transform='translate(-3.6 -3.6) scale(1.3)' fill='%238B78FF' d='M16.9 7.3a12 12 0 0 0-3-.9l-.4.8a10 10 0 0 0-3 0l-.4-.8a12 12 0 0 0-3 .9C5.2 10.1 4.7 12.8 5 15.5a12 12 0 0 0 3.7 1.9l.9-1.2-1.2-.6.3-.2a7.8 7.8 0 0 0 6.6 0l.3.2-1.2.6.9 1.2a12 12 0 0 0 3.7-1.9c.4-3.1-.7-5.8-2.1-8.2ZM9.6 14.2c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Zm4.8 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Z'/%3E%3C/svg%3E",
         "kind": "addon",
-        "parentModule": "twitchan.announcer",
+        "parentModule": "namenyx.announcer",
         "entrypoint": {
           "library": "announcer_discord.dll",
           "ui": "ui/index.html"
@@ -59,7 +59,7 @@
         "runtime": null,
         "dependencies": [
           {
-            "id": "twitchan.announcer",
+            "id": "namenyx.announcer",
             "version": ">=0.1.1, <1.0.0"
           }
         ],
@@ -81,10 +81,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/announcer_discord.namenyxmod",
-        "size": 243970,
-        "sha256": "2455af1744eecb269ed8007ed7a6c29ffbd28041c2c58de33bd35e8bce0cca95",
-        "signature": "8yZcEX4+dZ6nt/XOL3coNMA2NtgByVwVHpHFoTYFe9PfiGxysa05k9QMWi3fU1419Rk8L6HbEBmmQXzgPcttCQ=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/announcer_discord.namenyxmod",
+        "size": 244158,
+        "sha256": "9ee155ebc7a969a96d4cedcc9b33d40f763367b40bdac6a5827e7c4a2d3505a0",
+        "signature": "qltGl8X5qh9kpA7Fb1Y1H+HBuQ6UuxCoPdz/vEiu37qIZZywWT3dWKw1xdLqXXsJS2rr9eQXAPB/m84JujIvDQ=="
       },
       "runtimePackage": null
     },
@@ -92,7 +92,7 @@
       "manifest": {
         "schemaVersion": 1,
         "coreApi": 1,
-        "id": "twitchan.announcer.telegram",
+        "id": "namenyx.announcer.telegram",
         "displayName": "Telegram",
         "version": "0.1.11",
         "description": "Sends a Telegram channel notification when Announcer detects a new Twitch stream.",
@@ -100,7 +100,7 @@
         "repository": "https://github.com/shishiawase/Namenyx-modules",
         "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2329A9EA' d='m19.7 5.3-2.8 13.1c-.2.9-.8 1.1-1.6.7L11 15.9l-2.1 2c-.2.2-.4.4-.9.4l.3-4.4 8-7.2c.3-.3-.1-.5-.5-.2l-9.9 6.2-4.3-1.3c-.9-.3-.9-.9.2-1.3l16.8-6.5c.8-.3 1.5.2 1.1 1.7Z'/%3E%3C/svg%3E",
         "kind": "addon",
-        "parentModule": "twitchan.announcer",
+        "parentModule": "namenyx.announcer",
         "entrypoint": {
           "library": "announcer_telegram.dll",
           "ui": "ui/index.html"
@@ -108,7 +108,7 @@
         "runtime": null,
         "dependencies": [
           {
-            "id": "twitchan.announcer",
+            "id": "namenyx.announcer",
             "version": ">=0.1.1, <1.0.0"
           }
         ],
@@ -130,10 +130,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/announcer_telegram.namenyxmod",
-        "size": 243769,
-        "sha256": "f555a2ec8ce0218a1e51fcdba926fbccee89cb564e19da2a3c1417ad0425e74b",
-        "signature": "quieUN7y03ihOwlDdsrxKAphlqLKVqyorq70mZgg5WwQkPDwpfTD+reyNbYAjxmOqE514XczI+yYaTCuDcmdBQ=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/announcer_telegram.namenyxmod",
+        "size": 246054,
+        "sha256": "34ecfaa46ac6eccd94543596f5e49ec69b25c82098538b311576cc5444e6e537",
+        "signature": "42JgMIao/woc2H8ZFbKS1L+tV6CLRXbkRPVogYRccgBIrRE7mfu523a4COKnozl/uOqUI5k5WM85cWheiTbwDg=="
       },
       "runtimePackage": null
     },
@@ -141,7 +141,7 @@
       "manifest": {
         "schemaVersion": 1,
         "coreApi": 1,
-        "id": "twitchan.bot",
+        "id": "namenyx.bot",
         "displayName": "Bot",
         "version": "0.1.4",
         "description": "Chat bot with commands, automation and Twitch account support.",
@@ -180,10 +180,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/bot_module.namenyxmod",
-        "size": 854685,
-        "sha256": "d01ee1d9efb15d4dce4fb721815d9b923afc999786fa4472164d39318e3ae8df",
-        "signature": "Cn33T15MmSGfqH4i6dJrOVsiOm5EIiji/uFJUX+e6Xf2lHgXgjGBLt+unZOKpvNBTKOPL+1nOWoL24iNAVH2Bw=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/bot_module.namenyxmod",
+        "size": 848119,
+        "sha256": "42e8c631c3c8a9606a69af492cd72ac1ffee6bbdd6afe19fefc5e2d3de949191",
+        "signature": "4Mcc8aeC6WLI4YDu/xDidze6FVDOkSxmlXGjOHGNdx2ewpR1vr0YF2XZUlUECfqMfHMx+ILolm7VnS57WnqyAA=="
       },
       "runtimePackage": null
     },
@@ -191,7 +191,7 @@
       "manifest": {
         "schemaVersion": 1,
         "coreApi": 1,
-        "id": "twitchan.bot.rewards",
+        "id": "namenyx.bot.rewards",
         "displayName": "Rewards",
         "version": "0.1.5",
         "description": "Adds Twitch channel reward automations to Bot.",
@@ -199,7 +199,7 @@
         "repository": "https://github.com/shishiawase/Namenyx-modules",
         "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 10h16v10H4zM3 7h18v4H3zM12 7v13M7.5 7c-2.5 0-3.3-3.5-.8-3.5C9 3.5 12 7 12 7m4.5 0c2.5 0 3.3-3.5.8-3.5C15 3.5 12 7 12 7' fill='none' stroke='%23B47CFF' stroke-width='1.6' stroke-linejoin='round'/%3E%3C/svg%3E",
         "kind": "addon",
-        "parentModule": "twitchan.bot",
+        "parentModule": "namenyx.bot",
         "entrypoint": {
           "library": "bot_rewards.dll",
           "ui": "ui/index.html"
@@ -207,7 +207,7 @@
         "runtime": null,
         "dependencies": [
           {
-            "id": "twitchan.bot",
+            "id": "namenyx.bot",
             "version": ">=0.1.0, <1.0.0"
           }
         ],
@@ -248,10 +248,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/bot_rewards.namenyxmod",
-        "size": 190704,
-        "sha256": "edeb5c90bde43746e3b40f68bf5a8061ebf747e3c4c5255b89f700971561013e",
-        "signature": "DdhgF9yBUIhIMkSe+YuWAtlADxW9R8sIXRWQpAsFcq0A4wUOrAqeSoGMViFlrzK5dRshnjUwDrkXQRcsjBFACA=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/bot_rewards.namenyxmod",
+        "size": 190898,
+        "sha256": "05d97ef219902732e737f5615f16b0ffedd153872abf8d004c647e20a73e92fb",
+        "signature": "SxZjt4+E4Qt/DRwswnFodInYnltvg2goeNfk9Sj1AlhMMRQ61UXgOZ5aB9LxGTNRajMqK8PUVjZ1mmoe+42iDQ=="
       },
       "runtimePackage": null
     },
@@ -259,7 +259,7 @@
       "manifest": {
         "schemaVersion": 1,
         "coreApi": 1,
-        "id": "twitchan.bot.obs",
+        "id": "namenyx.bot.obs",
         "displayName": "OBS",
         "version": "0.1.5",
         "description": "Adds OBS scene and source actions to Bot commands.",
@@ -267,7 +267,7 @@
         "repository": "https://github.com/shishiawase/Namenyx-modules",
         "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23F2F2F5' d='M12 24C5.383 24 0 18.617 0 12S5.383 0 12 0s12 5.383 12 12-5.383 12-12 12Zm0-22.891C5.995 1.109 1.11 5.995 1.11 12c0 6.005 4.885 10.89 10.89 10.89S22.89 18.005 22.89 12C22.89 5.995 18.005 1.109 12 1.109ZM6.182 5.99c.352-1.698 1.503-3.229 3.05-3.996-.269.273-.595.483-.844.78-1.02 1.1-1.48 2.692-1.199 4.156.355 2.235 2.455 4.06 4.732 4.028 1.765.079 3.485-.937 4.348-2.468 1.848.063 3.645 1.017 4.7 2.548.54.799.962 1.736.991 2.711-.342-1.295-1.202-2.446-2.375-3.095-1.135-.639-2.529-.802-3.772-.425-1.56.448-2.849 1.723-3.293 3.293-.377 1.25-.216 2.628.377 3.772-.825 1.429-2.315 2.449-3.932 2.756-1.244.261-2.551.059-3.709-.464 1.036.302 2.161.355 3.191-.011 1.381-.457 2.522-1.567 3.024-2.935.556-1.49.345-3.261-.591-4.54-.7-1.007-1.803-1.717-3.002-1.969-.38-.068-.764-.098-1.148-.134-.611-1.231-.834-2.66-.528-3.996l.18-.011Z'/%3E%3C/svg%3E",
         "kind": "addon",
-        "parentModule": "twitchan.bot",
+        "parentModule": "namenyx.bot",
         "entrypoint": {
           "library": "bot_obs.dll",
           "ui": "ui/index.html"
@@ -275,7 +275,7 @@
         "runtime": null,
         "dependencies": [
           {
-            "id": "twitchan.bot",
+            "id": "namenyx.bot",
             "version": ">=0.1.0, <1.0.0"
           }
         ],
@@ -297,10 +297,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/bot_obs.namenyxmod",
-        "size": 171826,
-        "sha256": "3fc36d0e3ef39316167670552c5a20b56519cd4db5d50728894da6d2675c18d3",
-        "signature": "mzw0wmvktbOGnZpgyDCFahyqV9zc6mkGHnXS0Mun/XjGa1VZCTj0PlCdUFGjaft15JnR/SEd9FpTjM+nebrKCw=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/bot_obs.namenyxmod",
+        "size": 172012,
+        "sha256": "52c0ab45e102bd9f0d71b022adcfed26a2a7e60c791a2933824d436e99cff213",
+        "signature": "BxmLGqFvJ3JjHSFBJ5djO2wUSB0ssG9FCoOaYcagZmOC2+J1gV2wyICkBom52oqVA2OvA5z+dYfaP2I/JOPGBg=="
       },
       "runtimePackage": null
     },
@@ -308,7 +308,7 @@
       "manifest": {
         "schemaVersion": 1,
         "coreApi": 1,
-        "id": "twitchan.bot.raid-follow",
+        "id": "namenyx.bot.raid-follow",
         "displayName": "Raid & Follow",
         "version": "0.1.5",
         "description": "Adds configurable Bot responses to Twitch raids and follows.",
@@ -316,7 +316,7 @@
         "repository": "https://github.com/shishiawase/Namenyx-modules",
         "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 18c1.2-3 3.5-4.5 7-4.5s5.8 1.5 7 4.5M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm6-1 2 2 2-2m-2 2V7' fill='none' stroke='%23B47CFF' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E",
         "kind": "addon",
-        "parentModule": "twitchan.bot",
+        "parentModule": "namenyx.bot",
         "entrypoint": {
           "library": "bot_raid_follow.dll",
           "ui": "ui/index.html"
@@ -324,7 +324,7 @@
         "runtime": null,
         "dependencies": [
           {
-            "id": "twitchan.bot",
+            "id": "namenyx.bot",
             "version": ">=0.1.0, <1.0.0"
           }
         ],
@@ -353,10 +353,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.01.2/bot_raid_follow.namenyxmod",
-        "size": 194166,
-        "sha256": "5b5a68b5e14dd3f494293618855609d81d62909e3fb7549cd3e548a1f926925d",
-        "signature": "2dj6EdDA4yEG5ZHQIGI+6MEQHhPZNEa08MnQqeLQAuJQrOzu68GSU2zHefELnmwuCt7g1tF8GsavD4zq+AOJBQ=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/bot_raid_follow.namenyxmod",
+        "size": 194066,
+        "sha256": "194c8a2db4d711ea618b502126e3fd4c032af3740c0cf02885049e00216e3dc5",
+        "signature": "pmNWdw5wR+QTJM2oLHh48o6ePY8t1b047WIplQ6RAUhbMXJfw4olaD9UCZvNEeebkXhaP99zTPNfC+8nHNbrDg=="
       },
       "runtimePackage": null
     }
