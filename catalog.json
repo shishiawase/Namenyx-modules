@@ -7,7 +7,7 @@
         "coreApi": 1,
         "id": "namenyx.announcer",
         "displayName": "Announcer",
-        "version": "0.1.7",
+        "version": "0.1.8",
         "description": "Shows current and previous Twitch stream information and publishes stream lifecycle events for notification add-ons.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -32,10 +32,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/announcer.namenyxmod",
-        "size": 250708,
-        "sha256": "d9fac40743711a49767d61322005b470955e4c58e438a88beb42dd63395f8f2e",
-        "signature": "ihKVm3tOtqrcG8v87wbJELANjanqOgb8Y6uslKnH65+MHljZWvZPWuPpE+cm9aCltRfQZE5GIOCJjU/rKvBqDw=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.07.1/announcer.namenyxmod",
+        "size": 250824,
+        "sha256": "67e560cdf479fe007594e02f2da886ba92b481f4ba8235939b375bb4a9fe70ed",
+        "signature": "Jv7D/x1i5XbDQoPvYZ/wjQWGe5xvg1yONtktorhmhI7qBzMaWNvpLpKwOGioLGu1ecvFe+S+OUC8r4pr5lVvBw=="
       },
       "runtimePackage": null
     },
@@ -45,7 +45,7 @@
         "coreApi": 1,
         "id": "namenyx.announcer.discord",
         "displayName": "Discord",
-        "version": "0.1.9",
+        "version": "0.1.10",
         "description": "Sends a Discord webhook notification when Announcer detects a new Twitch stream.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -81,10 +81,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/announcer_discord.namenyxmod",
-        "size": 244158,
-        "sha256": "9ee155ebc7a969a96d4cedcc9b33d40f763367b40bdac6a5827e7c4a2d3505a0",
-        "signature": "qltGl8X5qh9kpA7Fb1Y1H+HBuQ6UuxCoPdz/vEiu37qIZZywWT3dWKw1xdLqXXsJS2rr9eQXAPB/m84JujIvDQ=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.07.1/announcer_discord.namenyxmod",
+        "size": 244190,
+        "sha256": "02ec643596f62734ed74abdbe0b60a4c5973d369e8d490b2773be500c4ab88eb",
+        "signature": "q9pUPVBekcib5KKsm8v+8a8eyB+XKAsjiIa1szzQjHpCLU6UR5FnYPR0YZyc6Jhl1tdusgjxqOobAahQ/7WtCw=="
       },
       "runtimePackage": null
     },
@@ -94,7 +94,7 @@
         "coreApi": 1,
         "id": "namenyx.announcer.telegram",
         "displayName": "Telegram",
-        "version": "0.1.11",
+        "version": "0.1.12",
         "description": "Sends a Telegram channel notification when Announcer detects a new Twitch stream.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -130,10 +130,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/announcer_telegram.namenyxmod",
-        "size": 246054,
-        "sha256": "34ecfaa46ac6eccd94543596f5e49ec69b25c82098538b311576cc5444e6e537",
-        "signature": "42JgMIao/woc2H8ZFbKS1L+tV6CLRXbkRPVogYRccgBIrRE7mfu523a4COKnozl/uOqUI5k5WM85cWheiTbwDg=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.07.1/announcer_telegram.namenyxmod",
+        "size": 246082,
+        "sha256": "eaf3d09cddbda860adfbd3e98241d7146f5139c974d6f8f8bd7ac5226b6283bd",
+        "signature": "Ui3NQa4G2n7VcJ4vkqRpqVjffFIrsAP4zzUVExlLxowv4fkkMuoF/DYTzHKtrUQi4ixMraI4IjvqqmYYEtJ9BQ=="
       },
       "runtimePackage": null
     },
