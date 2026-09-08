@@ -37,6 +37,16 @@
         "sha256": "67e560cdf479fe007594e02f2da886ba92b481f4ba8235939b375bb4a9fe70ed",
         "signature": "Jv7D/x1i5XbDQoPvYZ/wjQWGe5xvg1yONtktorhmhI7qBzMaWNvpLpKwOGioLGu1ecvFe+S+OUC8r4pr5lVvBw=="
       },
+      "releaseNotes": {
+        "en": [
+          "Fixed page sizing and scrolling so the header and bottom actions are no longer covered by the application frame.",
+          "Restored the notification settings layout when Discord and Telegram add-ons are installed."
+        ],
+        "ru": [
+          "Исправлены размеры и прокрутка страницы: шапка и нижние действия больше не перекрываются рамкой приложения.",
+          "Восстановлена компоновка настроек уведомлений при установленных аддонах Discord и Telegram."
+        ]
+      },
       "runtimePackage": null
     },
     {
@@ -86,6 +96,16 @@
         "sha256": "02ec643596f62734ed74abdbe0b60a4c5973d369e8d490b2773be500c4ab88eb",
         "signature": "q9pUPVBekcib5KKsm8v+8a8eyB+XKAsjiIa1szzQjHpCLU6UR5FnYPR0YZyc6Jhl1tdusgjxqOobAahQ/7WtCw=="
       },
+      "releaseNotes": {
+        "en": [
+          "Restored the Discord settings and preview layout.",
+          "Fixed the spacing around Save and Test actions."
+        ],
+        "ru": [
+          "Восстановлена компоновка настроек и предпросмотра Discord.",
+          "Исправлены отступы вокруг кнопок «Сохранить» и «Тест»."
+        ]
+      },
       "runtimePackage": null
     },
     {
@@ -134,6 +154,16 @@
         "size": 246082,
         "sha256": "eaf3d09cddbda860adfbd3e98241d7146f5139c974d6f8f8bd7ac5226b6283bd",
         "signature": "Ui3NQa4G2n7VcJ4vkqRpqVjffFIrsAP4zzUVExlLxowv4fkkMuoF/DYTzHKtrUQi4ixMraI4IjvqqmYYEtJ9BQ=="
+      },
+      "releaseNotes": {
+        "en": [
+          "Restored the Telegram notification settings layout.",
+          "Fixed the spacing around Save and Test actions."
+        ],
+        "ru": [
+          "Восстановлена компоновка настроек уведомлений Telegram.",
+          "Исправлены отступы вокруг кнопок «Сохранить» и «Тест»."
+        ]
       },
       "runtimePackage": null
     },
@@ -185,6 +215,7 @@
         "sha256": "42e8c631c3c8a9606a69af492cd72ac1ffee6bbdd6afe19fefc5e2d3de949191",
         "signature": "4Mcc8aeC6WLI4YDu/xDidze6FVDOkSxmlXGjOHGNdx2ewpR1vr0YF2XZUlUECfqMfHMx+ILolm7VnS57WnqyAA=="
       },
+      "releaseNotes": {},
       "runtimePackage": null
     },
     {
@@ -253,6 +284,7 @@
         "sha256": "05d97ef219902732e737f5615f16b0ffedd153872abf8d004c647e20a73e92fb",
         "signature": "SxZjt4+E4Qt/DRwswnFodInYnltvg2goeNfk9Sj1AlhMMRQ61UXgOZ5aB9LxGTNRajMqK8PUVjZ1mmoe+42iDQ=="
       },
+      "releaseNotes": {},
       "runtimePackage": null
     },
     {
@@ -302,6 +334,7 @@
         "sha256": "52c0ab45e102bd9f0d71b022adcfed26a2a7e60c791a2933824d436e99cff213",
         "signature": "BxmLGqFvJ3JjHSFBJ5djO2wUSB0ssG9FCoOaYcagZmOC2+J1gV2wyICkBom52oqVA2OvA5z+dYfaP2I/JOPGBg=="
       },
+      "releaseNotes": {},
       "runtimePackage": null
     },
     {
@@ -358,6 +391,7 @@
         "sha256": "194c8a2db4d711ea618b502126e3fd4c032af3740c0cf02885049e00216e3dc5",
         "signature": "pmNWdw5wR+QTJM2oLHh48o6ePY8t1b047WIplQ6RAUhbMXJfw4olaD9UCZvNEeebkXhaP99zTPNfC+8nHNbrDg=="
       },
+      "releaseNotes": {},
       "runtimePackage": null
     }
   ]
