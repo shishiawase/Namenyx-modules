@@ -173,7 +173,7 @@
         "coreApi": 1,
         "id": "namenyx.bot",
         "displayName": "Bot",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "description": "Chat bot with commands, automation and Twitch account support.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -210,12 +210,19 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/bot_module.namenyxmod",
-        "size": 848119,
-        "sha256": "42e8c631c3c8a9606a69af492cd72ac1ffee6bbdd6afe19fefc5e2d3de949191",
-        "signature": "4Mcc8aeC6WLI4YDu/xDidze6FVDOkSxmlXGjOHGNdx2ewpR1vr0YF2XZUlUECfqMfHMx+ILolm7VnS57WnqyAA=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.10.1/bot_module.namenyxmod",
+        "size": 848708,
+        "sha256": "4acd94dd0ea582d9b22831080ea33c3ef8ed3e822f6759d925f34cc27e0487d9",
+        "signature": "4Ow0trX1EW5z92NY6nxkyuzZ//gzflr5fZ/S8/+z/8RcT2sij1qut6ta3uIca/Y0AMlqBdcr84r+qe2/oTomAg=="
       },
-      "releaseNotes": {},
+      "releaseNotes": {
+        "en": [
+          "Restored the Events tab when the Raid & Follow add-on is installed and enabled."
+        ],
+        "ru": [
+          "Восстановлена вкладка «События» при установленном и включённом аддоне Raid & Follow."
+        ]
+      },
       "runtimePackage": null
     },
     {
@@ -343,7 +350,7 @@
         "coreApi": 1,
         "id": "namenyx.bot.raid-follow",
         "displayName": "Raid & Follow",
-        "version": "0.1.5",
+        "version": "0.1.6",
         "description": "Adds configurable Bot responses to Twitch raids and follows.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -386,12 +393,21 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/bot_raid_follow.namenyxmod",
-        "size": 194066,
-        "sha256": "194c8a2db4d711ea618b502126e3fd4c032af3740c0cf02885049e00216e3dc5",
-        "signature": "pmNWdw5wR+QTJM2oLHh48o6ePY8t1b047WIplQ6RAUhbMXJfw4olaD9UCZvNEeebkXhaP99zTPNfC+8nHNbrDg=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.10.1/bot_raid_follow.namenyxmod",
+        "size": 194669,
+        "sha256": "eb245b4b818851109953e2f179858ea669b3fbb2c0f64449b18ec8094434dcfb",
+        "signature": "FqLIimF6L+JnRRsllfhbr9WqCP8ac1HWO0iQCwd57csmS/ZPYbftmoJHl3xBGVwqw3/AEpDfOyX09k63Fvj1Ag=="
       },
-      "releaseNotes": {},
+      "releaseNotes": {
+        "en": [
+          "Made Twitch follow detection reliable: EventSub registration no longer repeats authorization checks during the initial WebSocket window, and follower-list polling covers notifications Twitch does not deliver.",
+          "Kept the Save button width stable while settings are being saved."
+        ],
+        "ru": [
+          "Отслеживание обычных фолловов стало надёжнее: регистрация EventSub больше не повторяет проверку авторизации в начальном окне WebSocket, а резервная сверка списка фолловеров обрабатывает не доставленные Twitch уведомления.",
+          "Ширина кнопки «Сохранить» больше не меняется во время сохранения настроек."
+        ]
+      },
       "runtimePackage": null
     }
   ]
