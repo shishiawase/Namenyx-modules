@@ -173,7 +173,7 @@
         "coreApi": 1,
         "id": "namenyx.bot",
         "displayName": "Bot",
-        "version": "0.1.5",
+        "version": "0.1.6",
         "description": "Chat bot with commands, automation and Twitch account support.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -210,17 +210,17 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.10.1/bot_module.namenyxmod",
-        "size": 848708,
-        "sha256": "4acd94dd0ea582d9b22831080ea33c3ef8ed3e822f6759d925f34cc27e0487d9",
-        "signature": "4Ow0trX1EW5z92NY6nxkyuzZ//gzflr5fZ/S8/+z/8RcT2sij1qut6ta3uIca/Y0AMlqBdcr84r+qe2/oTomAg=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.13.1/bot_module.namenyxmod",
+        "size": 852500,
+        "sha256": "e5d34d0e80e66bdf1c6421c6a372167d1f557a7293210115e465a8415c881706",
+        "signature": "AFYNJ/5YScCr0mu/lEC0H4uv0P26VqUxslnkX5+Hq/2s0CmFZfqZw93G+DdkIjdHtf0RTZngJnKiUzDdB1C6Bg=="
       },
       "releaseNotes": {
         "en": [
-          "Restored the Events tab when the Raid & Follow add-on is installed and enabled."
+          "Added a User command role with a comma-separated allowlist of Twitch logins."
         ],
         "ru": [
-          "Восстановлена вкладка «События» при установленном и включённом аддоне Raid & Follow."
+          "Добавлена роль команды «Пользователь» со списком разрешённых Twitch-логинов через запятую."
         ]
       },
       "runtimePackage": null
