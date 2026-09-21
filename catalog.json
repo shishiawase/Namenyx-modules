@@ -7,7 +7,7 @@
         "coreApi": 1,
         "id": "namenyx.announcer",
         "displayName": "Announcer",
-        "version": "0.1.8",
+        "version": "0.1.10",
         "description": "Shows current and previous Twitch stream information and publishes stream lifecycle events for notification add-ons.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -32,19 +32,17 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.07.1/announcer.namenyxmod",
-        "size": 250824,
-        "sha256": "67e560cdf479fe007594e02f2da886ba92b481f4ba8235939b375bb4a9fe70ed",
-        "signature": "Jv7D/x1i5XbDQoPvYZ/wjQWGe5xvg1yONtktorhmhI7qBzMaWNvpLpKwOGioLGu1ecvFe+S+OUC8r4pr5lVvBw=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/announcer.namenyxmod",
+        "size": 268247,
+        "sha256": "a53d0c57d42f7e2d60fb9bad5f3e75d3f3c5c2cd67435884a6c12c737f836b8b",
+        "signature": "wc9tuKNgi0O1fz/0g9DbrdwJ8YJVQ4HaVw7hbvbf8pablLJOJxtaAfxMsrYbAaE3V5Tzq8HxSWwlJzPcpR7gCQ=="
       },
       "releaseNotes": {
         "en": [
-          "Fixed page sizing and scrolling so the header and bottom actions are no longer covered by the application frame.",
-          "Restored the notification settings layout when Discord and Telegram add-ons are installed."
+          "Added a Check button to refresh stream status and trigger configured notifications through normal duplicate protection."
         ],
         "ru": [
-          "Исправлены размеры и прокрутка страницы: шапка и нижние действия больше не перекрываются рамкой приложения.",
-          "Восстановлена компоновка настроек уведомлений при установленных аддонах Discord и Telegram."
+          "Добавлена кнопка «Проверить»: обновляет статус стрима и запускает настроенные уведомления с обычной защитой от повторов."
         ]
       },
       "runtimePackage": null
@@ -55,7 +53,7 @@
         "coreApi": 1,
         "id": "namenyx.announcer.discord",
         "displayName": "Discord",
-        "version": "0.1.10",
+        "version": "0.1.11",
         "description": "Sends a Discord webhook notification when Announcer detects a new Twitch stream.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -91,10 +89,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.07.1/announcer_discord.namenyxmod",
-        "size": 244190,
-        "sha256": "02ec643596f62734ed74abdbe0b60a4c5973d369e8d490b2773be500c4ab88eb",
-        "signature": "q9pUPVBekcib5KKsm8v+8a8eyB+XKAsjiIa1szzQjHpCLU6UR5FnYPR0YZyc6Jhl1tdusgjxqOobAahQ/7WtCw=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/announcer_discord.namenyxmod",
+        "size": 248829,
+        "sha256": "5d702f313622b7f3ea6adf3cd90523ef3fdc680172de05e3012917ec8a004c37",
+        "signature": "jrBxhxEoHbn0prJdBz8qO+xLeXep4VVwP3QY2WyCTC+dnVVxEljF9HdFrII0XjiDT2tm2gVGESjvRALqYP5ICg=="
       },
       "releaseNotes": {
         "en": [
@@ -114,7 +112,7 @@
         "coreApi": 1,
         "id": "namenyx.announcer.telegram",
         "displayName": "Telegram",
-        "version": "0.1.12",
+        "version": "0.1.13",
         "description": "Sends a Telegram channel notification when Announcer detects a new Twitch stream.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -150,10 +148,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.07.1/announcer_telegram.namenyxmod",
-        "size": 246082,
-        "sha256": "eaf3d09cddbda860adfbd3e98241d7146f5139c974d6f8f8bd7ac5226b6283bd",
-        "signature": "Ui3NQa4G2n7VcJ4vkqRpqVjffFIrsAP4zzUVExlLxowv4fkkMuoF/DYTzHKtrUQi4ixMraI4IjvqqmYYEtJ9BQ=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/announcer_telegram.namenyxmod",
+        "size": 251355,
+        "sha256": "34721ac9ad576f20a523f936932dfc5fb9f4311359cb0bc04354f60263de947e",
+        "signature": "A6fbBaKbJIFZIhStSErNBnEQdtkFOnVON9iaDtZJdQCqa+v0m9UNRyHSuTDo/OYbyo0bSnUxeE5F5Dmm3W1BAQ=="
       },
       "releaseNotes": {
         "en": [
@@ -173,7 +171,7 @@
         "coreApi": 1,
         "id": "namenyx.bot",
         "displayName": "Bot",
-        "version": "0.1.6",
+        "version": "0.1.8",
         "description": "Chat bot with commands, automation and Twitch account support.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -210,17 +208,19 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.13.1/bot_module.namenyxmod",
-        "size": 852500,
-        "sha256": "e5d34d0e80e66bdf1c6421c6a372167d1f557a7293210115e465a8415c881706",
-        "signature": "AFYNJ/5YScCr0mu/lEC0H4uv0P26VqUxslnkX5+Hq/2s0CmFZfqZw93G+DdkIjdHtf0RTZngJnKiUzDdB1C6Bg=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/bot_module.namenyxmod",
+        "size": 864364,
+        "sha256": "6bdf922e5e811cea8f10c8b213d502b9839c4b1c06bb04b21523696b83b846cb",
+        "signature": "XCGjN9RryllH1J5ZRqwJpIIbsxFxvTHSFYbqilDjUdGCp2kC3prYihqdU92cfW4NRktDLaBH44nDpZL51OfOBg=="
       },
       "releaseNotes": {
         "en": [
-          "Added a User command role with a comma-separated allowlist of Twitch logins."
+          "Bot skips regex matching, response rendering and response file reads for unified commands still on cooldown.",
+          "Bot reloads a restored configuration on the next event after a temporary read or parse failure, even when file metadata is unchanged. Requires the Core release with configuration revision synchronization."
         ],
         "ru": [
-          "Добавлена роль команды «Пользователь» со списком разрешённых Twitch-логинов через запятую."
+          "Bot пропускает regex, формирование ответа и чтение файлов ответа для команд нового формата, пока действует cooldown.",
+          "Bot перечитывает восстановленную конфигурацию на следующем событии после временной ошибки чтения или разбора, даже если метаданные файла не изменились. Требуется Core с синхронизацией ревизий конфигурации."
         ]
       },
       "runtimePackage": null
@@ -286,10 +286,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/bot_rewards.namenyxmod",
-        "size": 190898,
-        "sha256": "05d97ef219902732e737f5615f16b0ffedd153872abf8d004c647e20a73e92fb",
-        "signature": "SxZjt4+E4Qt/DRwswnFodInYnltvg2goeNfk9Sj1AlhMMRQ61UXgOZ5aB9LxGTNRajMqK8PUVjZ1mmoe+42iDQ=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/bot_rewards.namenyxmod",
+        "size": 191813,
+        "sha256": "daad250b9bd5a2a1a820d7ad44a3a3956996fc814ff3517a92209c7b5f673b47",
+        "signature": "rGhosJpguyll2jrefEnQeWGep3joz9ZAyqQT7Pl6FSGJZNF4i+VuMvhMp7IhQ32rhBCBEclhFp0egz42UsvzAA=="
       },
       "releaseNotes": {},
       "runtimePackage": null
@@ -336,10 +336,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.05.1/bot_obs.namenyxmod",
-        "size": 172012,
-        "sha256": "52c0ab45e102bd9f0d71b022adcfed26a2a7e60c791a2933824d436e99cff213",
-        "signature": "BxmLGqFvJ3JjHSFBJ5djO2wUSB0ssG9FCoOaYcagZmOC2+J1gV2wyICkBom52oqVA2OvA5z+dYfaP2I/JOPGBg=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/bot_obs.namenyxmod",
+        "size": 172919,
+        "sha256": "1671b6ea1e8aad28a0cf1c2f35f1593adc54d949a783309eac46803f989ae8da",
+        "signature": "XFroYIfTPQdCqhEgaQWytjaV1PY3CzW6MJJaVJM5fh6YrNJhk9WNSkINnc/5a95T02D2onCgFEcXLrWJInXvBg=="
       },
       "releaseNotes": {},
       "runtimePackage": null
@@ -350,7 +350,7 @@
         "coreApi": 1,
         "id": "namenyx.bot.raid-follow",
         "displayName": "Raid & Follow",
-        "version": "0.1.6",
+        "version": "0.1.8",
         "description": "Adds configurable Bot responses to Twitch raids and follows.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -393,19 +393,21 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.10.1/bot_raid_follow.namenyxmod",
-        "size": 194669,
-        "sha256": "eb245b4b818851109953e2f179858ea669b3fbb2c0f64449b18ec8094434dcfb",
-        "signature": "FqLIimF6L+JnRRsllfhbr9WqCP8ac1HWO0iQCwd57csmS/ZPYbftmoJHl3xBGVwqw3/AEpDfOyX09k63Fvj1Ag=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/bot_raid_follow.namenyxmod",
+        "size": 200233,
+        "sha256": "41d41c9fb41821df236bd40f3665e966b8251ed8c97dc391f6cb45c6408fcad9",
+        "signature": "H7rRuv8cAfAF3at3dPcQzgbgAfnpb55teyU2SU9JsfZOZ7XXj+zQLzKCKt7SGKeC755Z7sR383zuxHvTye7ZAA=="
       },
       "releaseNotes": {
         "en": [
-          "Made Twitch follow detection reliable: EventSub registration no longer repeats authorization checks during the initial WebSocket window, and follower-list polling covers notifications Twitch does not deliver.",
-          "Kept the Save button width stable while settings are being saved."
+          "Follow responses now use only Twitch EventSub notifications, without follower-list polling or local duplicate suppression. Requires the updated Core.",
+          "Raid shoutouts use the raider login instead of the display name.",
+          "Settings use revision acknowledgements and bounded delivery retries."
         ],
         "ru": [
-          "Отслеживание обычных фолловов стало надёжнее: регистрация EventSub больше не повторяет проверку авторизации в начальном окне WebSocket, а резервная сверка списка фолловеров обрабатывает не доставленные Twitch уведомления.",
-          "Ширина кнопки «Сохранить» больше не меняется во время сохранения настроек."
+          "Автоответы на фоллоу работают только по уведомлениям Twitch EventSub, без опроса списка фолловеров и локального подавления повторов. Требуется обновлённый Core.",
+          "Shoutout при рейде использует логин рейдера вместо отображаемого имени.",
+          "Применение настроек подтверждается ревизией; доставка повторяется ограниченное число раз."
         ]
       },
       "runtimePackage": null
