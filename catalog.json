@@ -7,7 +7,7 @@
         "coreApi": 1,
         "id": "namenyx.announcer",
         "displayName": "Announcer",
-        "version": "0.1.10",
+        "version": "0.1.11",
         "description": "Shows current and previous Twitch stream information and publishes stream lifecycle events for notification add-ons.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -32,10 +32,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/announcer.namenyxmod",
-        "size": 268247,
-        "sha256": "a53d0c57d42f7e2d60fb9bad5f3e75d3f3c5c2cd67435884a6c12c737f836b8b",
-        "signature": "wc9tuKNgi0O1fz/0g9DbrdwJ8YJVQ4HaVw7hbvbf8pablLJOJxtaAfxMsrYbAaE3V5Tzq8HxSWwlJzPcpR7gCQ=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/announcer.namenyxmod",
+        "size": 383818,
+        "sha256": "af0786b8d02e84344c2fd72a94215a5540fd79616411be07b05007432b0716be",
+        "signature": "E4GLyeqndRrxcL1pdeHPmVPLKh/+6GiRFwdFtaZwbL6Yy/jZvGFPL+ZmWtyAzjb/uMvGW41xpbxXZpw8xVWiBg=="
       },
       "releaseNotes": {
         "en": [
@@ -53,7 +53,7 @@
         "coreApi": 1,
         "id": "namenyx.announcer.discord",
         "displayName": "Discord",
-        "version": "0.1.11",
+        "version": "0.1.12",
         "description": "Sends a Discord webhook notification when Announcer detects a new Twitch stream.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -89,10 +89,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/announcer_discord.namenyxmod",
-        "size": 248829,
-        "sha256": "5d702f313622b7f3ea6adf3cd90523ef3fdc680172de05e3012917ec8a004c37",
-        "signature": "jrBxhxEoHbn0prJdBz8qO+xLeXep4VVwP3QY2WyCTC+dnVVxEljF9HdFrII0XjiDT2tm2gVGESjvRALqYP5ICg=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/announcer_discord.namenyxmod",
+        "size": 365657,
+        "sha256": "e9c248c9164a19997d6d988c2bd9c681e31fd811b1753829829440743f011caf",
+        "signature": "/6qPy9vnlzs+pLYepB1h1spc2hopgLTYV29QlAo77+0ApOevfwRudRO+blVWATMv8utPgruQHUhiw6UJEuWADg=="
       },
       "releaseNotes": {
         "en": [
@@ -112,7 +112,7 @@
         "coreApi": 1,
         "id": "namenyx.announcer.telegram",
         "displayName": "Telegram",
-        "version": "0.1.13",
+        "version": "0.1.14",
         "description": "Sends a Telegram channel notification when Announcer detects a new Twitch stream.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -148,10 +148,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/announcer_telegram.namenyxmod",
-        "size": 251355,
-        "sha256": "34721ac9ad576f20a523f936932dfc5fb9f4311359cb0bc04354f60263de947e",
-        "signature": "A6fbBaKbJIFZIhStSErNBnEQdtkFOnVON9iaDtZJdQCqa+v0m9UNRyHSuTDo/OYbyo0bSnUxeE5F5Dmm3W1BAQ=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/announcer_telegram.namenyxmod",
+        "size": 367344,
+        "sha256": "081b68f6229fb0f68c2b308fa9c7eb236f813e5f1afdcaffb3041b01847a43ce",
+        "signature": "RkJeF9xiQBGin/eDGDgplbQtoh6VFpwIM/SS+3DBJvJSaAzTCdDJHqdJiOxBsHf5qxvJuv5oFkgY1k4hYuebBA=="
       },
       "releaseNotes": {
         "en": [
@@ -171,7 +171,7 @@
         "coreApi": 1,
         "id": "namenyx.bot",
         "displayName": "Bot",
-        "version": "0.1.8",
+        "version": "0.1.10",
         "description": "Chat bot with commands, automation and Twitch account support.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -208,17 +208,19 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/bot_module.namenyxmod",
-        "size": 864364,
-        "sha256": "6bdf922e5e811cea8f10c8b213d502b9839c4b1c06bb04b21523696b83b846cb",
-        "signature": "XCGjN9RryllH1J5ZRqwJpIIbsxFxvTHSFYbqilDjUdGCp2kC3prYihqdU92cfW4NRktDLaBH44nDpZL51OfOBg=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/bot_module.namenyxmod",
+        "size": 1070405,
+        "sha256": "cd07f17a3147b776ef4718cd85020ca06815fbf9a44043ea7a6ce848ec4dd933",
+        "signature": "aqldMLn/LZtXSWGBytlYpc44fkHCyt7Tzs1IADPBcRMF9DBZfhiHI+SXsZc8jfOrK8q0oxPcBiUOw6tekk6PCQ=="
       },
       "releaseNotes": {
         "en": [
+          "Adds Song Request to Bot alongside Commands, Rewards and Raid & Follow, with reward ownership checks before activation.",
           "Bot skips regex matching, response rendering and response file reads for unified commands still on cooldown.",
           "Bot reloads a restored configuration on the next event after a temporary read or parse failure, even when file metadata is unchanged. Requires the Core release with configuration revision synchronization."
         ],
         "ru": [
+          "Добавляет Song Request в Bot рядом с командами, наградами и Raid & Follow с проверкой владельца награды перед активацией.",
           "Bot пропускает regex, формирование ответа и чтение файлов ответа для команд нового формата, пока действует cooldown.",
           "Bot перечитывает восстановленную конфигурацию на следующем событии после временной ошибки чтения или разбора, даже если метаданные файла не изменились. Требуется Core с синхронизацией ревизий конфигурации."
         ]
@@ -231,7 +233,7 @@
         "coreApi": 1,
         "id": "namenyx.bot.rewards",
         "displayName": "Rewards",
-        "version": "0.1.5",
+        "version": "0.1.7",
         "description": "Adds Twitch channel reward automations to Bot.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -246,7 +248,7 @@
         "dependencies": [
           {
             "id": "namenyx.bot",
-            "version": ">=0.1.0, <1.0.0"
+            "version": ">=0.1.10, <1.0.0"
           }
         ],
         "permissions": [
@@ -286,12 +288,19 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/bot_rewards.namenyxmod",
-        "size": 191813,
-        "sha256": "daad250b9bd5a2a1a820d7ad44a3a3956996fc814ff3517a92209c7b5f673b47",
-        "signature": "rGhosJpguyll2jrefEnQeWGep3joz9ZAyqQT7Pl6FSGJZNF4i+VuMvhMp7IhQ32rhBCBEclhFp0egz42UsvzAA=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/bot_rewards.namenyxmod",
+        "size": 309760,
+        "sha256": "35f9288188198fd3304ac16711b0b2f7888ed16a6893967bcb7ab32976b9b8ca",
+        "signature": "9iO0zu3x7nXIYbHnyyO12DqPF8eQatd1t2l9SlaLfynuZllbraGJvN093GtmcxGrkPqKxBXmezzcUhbtuoYeBw=="
       },
-      "releaseNotes": {},
+      "releaseNotes": {
+        "en": [
+          "Shows rewards managed by Song Request and blocks conflicting reward automation edits. Requires Bot 0.1.10 or later."
+        ],
+        "ru": [
+          "Показывает награды под управлением Song Request и предотвращает конфликтующие изменения автоматизации. Требуется Bot 0.1.10 или новее."
+        ]
+      },
       "runtimePackage": null
     },
     {
@@ -300,7 +309,7 @@
         "coreApi": 1,
         "id": "namenyx.bot.obs",
         "displayName": "OBS",
-        "version": "0.1.5",
+        "version": "0.1.6",
         "description": "Adds OBS scene and source actions to Bot commands.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -336,10 +345,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/bot_obs.namenyxmod",
-        "size": 172919,
-        "sha256": "1671b6ea1e8aad28a0cf1c2f35f1593adc54d949a783309eac46803f989ae8da",
-        "signature": "XFroYIfTPQdCqhEgaQWytjaV1PY3CzW6MJJaVJM5fh6YrNJhk9WNSkINnc/5a95T02D2onCgFEcXLrWJInXvBg=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/bot_obs.namenyxmod",
+        "size": 289461,
+        "sha256": "60de37bff7e29a478a87e44c0a4b20e2eae0e029ef560818b9f74496f55a86b1",
+        "signature": "i0Xn2HX59HJfK9G6z5lXAb4URlcZjw7xQB6ISpkpGAaPNrXr8SnbMffVo4o6uE43QirbkkzlwL+xjI1cLvcXAg=="
       },
       "releaseNotes": {},
       "runtimePackage": null
@@ -350,7 +359,7 @@
         "coreApi": 1,
         "id": "namenyx.bot.raid-follow",
         "displayName": "Raid & Follow",
-        "version": "0.1.8",
+        "version": "0.1.9",
         "description": "Adds configurable Bot responses to Twitch raids and follows.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -393,10 +402,10 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.09.21.1/bot_raid_follow.namenyxmod",
-        "size": 200233,
-        "sha256": "41d41c9fb41821df236bd40f3665e966b8251ed8c97dc391f6cb45c6408fcad9",
-        "signature": "H7rRuv8cAfAF3at3dPcQzgbgAfnpb55teyU2SU9JsfZOZ7XXj+zQLzKCKt7SGKeC755Z7sR383zuxHvTye7ZAA=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/bot_raid_follow.namenyxmod",
+        "size": 315814,
+        "sha256": "d2d377756b7fb7ca89f1a92d47829186b9e2ab117ac7e01c46a2e7f45aa1280c",
+        "signature": "dS8h2C1BO+7nd+SYGj6EdHSD20zoxDk4g8HnHek1L+HRkRcpBiL/mrzZlSaySgGnoCbYVfuezH5y2sDQ0LWjCg=="
       },
       "releaseNotes": {
         "en": [
@@ -408,6 +417,118 @@
           "Автоответы на фоллоу работают только по уведомлениям Twitch EventSub, без опроса списка фолловеров и локального подавления повторов. Требуется обновлённый Core.",
           "Shoutout при рейде использует логин рейдера вместо отображаемого имени.",
           "Применение настроек подтверждается ревизией; доставка повторяется ограниченное число раз."
+        ]
+      },
+      "runtimePackage": null
+    },
+    {
+      "manifest": {
+        "schemaVersion": 1,
+        "coreApi": 1,
+        "id": "namenyx.bot.song-request",
+        "displayName": "Song Request",
+        "version": "0.1.1",
+        "description": "YouTube song requests for Bot with moderation, durable queue, visible operator playback and an optional local OBS overlay.",
+        "author": "SergeyBushuev",
+        "repository": "https://github.com/SergeyBushuev",
+        "icon": null,
+        "kind": "addon",
+        "parentModule": "namenyx.bot",
+        "entrypoint": {
+          "library": "bot_song_request.dll",
+          "ui": "ui/index.html"
+        },
+        "runtime": null,
+        "dependencies": [
+          {
+            "id": "namenyx.bot",
+            "version": ">=0.1.10, <1.0.0"
+          }
+        ],
+        "permissions": [
+          {
+            "id": "twitchChatRead",
+            "scopes": [],
+            "twitchAccount": "bot",
+            "twitchEndpoints": []
+          },
+          {
+            "id": "twitchChatSend",
+            "scopes": [],
+            "twitchAccount": "bot",
+            "twitchEndpoints": []
+          },
+          {
+            "id": "moduleSecrets",
+            "scopes": [],
+            "twitchAccount": null,
+            "twitchEndpoints": []
+          },
+          {
+            "id": "moduleStorage",
+            "scopes": [],
+            "twitchAccount": null,
+            "twitchEndpoints": []
+          },
+          {
+            "id": "moduleActions",
+            "scopes": [],
+            "twitchAccount": null,
+            "twitchEndpoints": []
+          },
+          {
+            "id": "twitchRewardRead",
+            "scopes": [
+              "channel:manage:redemptions"
+            ],
+            "twitchAccount": "broadcaster",
+            "twitchEndpoints": []
+          },
+          {
+            "id": "twitchApi",
+            "scopes": [
+              "channel:manage:redemptions"
+            ],
+            "twitchAccount": "broadcaster",
+            "twitchEndpoints": [
+              {
+                "method": "POST",
+                "path": "/helix/channel_points/custom_rewards"
+              },
+              {
+                "method": "GET",
+                "path": "/helix/channel_points/custom_rewards"
+              },
+              {
+                "method": "GET",
+                "path": "/helix/channel_points/custom_rewards/redemptions"
+              },
+              {
+                "method": "PATCH",
+                "path": "/helix/channel_points/custom_rewards/redemptions"
+              }
+            ]
+          }
+        ],
+        "transmittedData": [
+          "YouTube search sends search text and the API key to Google's YouTube Data API. Metadata lookup sends video IDs and the API key to that service. Thumbnail display retrieves small images from YouTube's image CDN without the API key.",
+          "Playback sends the selected video ID and browser/network information to YouTube. The local player and optional OBS overlay expose video metadata and requester display names to local viewers; the overlay can require a separately configured token.",
+          "Chat replies send request status and song information to the configured Twitch channel. Reward setup and redemption status use Twitch Helix. Requester IDs, names, request text and video metadata are retained locally for queue, moderation and recovery."
+        ],
+        "accountCards": []
+      },
+      "package": {
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/bot_song_request.namenyxmod",
+        "size": 3069448,
+        "sha256": "c029efd8f4e5471750b1caf994cf5ee3ae48ee57a71227a7444dad5f9b54c304",
+        "signature": "NouAqLpa/UOdJBKKkl1sMbEtYKqGV3dU1FA7GZ6wiMCaUEf7WJOq6Jy8oxlKjKn+Wuu3WJBmOayWnAG/5470Aw=="
+      },
+      "releaseNotes": {
+        "en": [
+          "Adds moderated YouTube requests with a persistent queue, a visible desktop player and an optional local OBS overlay. Optional channel points requests require a reward owned by the configured Twitch application. Requires Bot 0.1.10 or later."
+        ],
+        "ru": [
+          "Добавляет модерируемые YouTube-заявки с сохраняемой очередью, видимым плеером и необязательным локальным оверлеем OBS. Заявкам за баллы канала нужна награда, принадлежащая настроенному Twitch-приложению. Требуется Bot 0.1.10 или новее."
         ]
       },
       "runtimePackage": null
