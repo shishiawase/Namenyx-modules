@@ -171,7 +171,7 @@
         "coreApi": 1,
         "id": "namenyx.bot",
         "displayName": "Bot",
-        "version": "0.1.10",
+        "version": "0.1.11",
         "description": "Chat bot with commands, automation and Twitch account support.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
@@ -208,21 +208,19 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/bot_module.namenyxmod",
-        "size": 1070405,
-        "sha256": "cd07f17a3147b776ef4718cd85020ca06815fbf9a44043ea7a6ce848ec4dd933",
-        "signature": "aqldMLn/LZtXSWGBytlYpc44fkHCyt7Tzs1IADPBcRMF9DBZfhiHI+SXsZc8jfOrK8q0oxPcBiUOw6tekk6PCQ=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.05.2/bot_module.namenyxmod",
+        "size": 1069540,
+        "sha256": "1bf9842855728eabed101ac26a4c69bcaa5e3078a42effc62a0222a324f43686",
+        "signature": "/MUBaJhT4zFXMnYzFuEVYLUAH/GOd21wG7eMBziAjjT8Te7aoY/+vaQBcBuGXuFzfIyjwYnt0mQJHMMSk1KIAw=="
       },
       "releaseNotes": {
         "en": [
-          "Adds Song Request to Bot alongside Commands, Rewards and Raid & Follow, with reward ownership checks before activation.",
-          "Bot skips regex matching, response rendering and response file reads for unified commands still on cooldown.",
-          "Bot reloads a restored configuration on the next event after a temporary read or parse failure, even when file metadata is unchanged. Requires the Core release with configuration revision synchronization."
+          "Import Song Request commands from Bot's Commands tab with Song Request 0.1.2 or later. Imported commands open as disabled drafts and are saved only when you choose Save.",
+          "Improves reopening command drafts and scrolling in command dialogs at small window heights, keeping the title, close button and editor actions accessible."
         ],
         "ru": [
-          "Добавляет Song Request в Bot рядом с командами, наградами и Raid & Follow с проверкой владельца награды перед активацией.",
-          "Bot пропускает regex, формирование ответа и чтение файлов ответа для команд нового формата, пока действует cooldown.",
-          "Bot перечитывает восстановленную конфигурацию на следующем событии после временной ошибки чтения или разбора, даже если метаданные файла не изменились. Требуется Core с синхронизацией ревизий конфигурации."
+          "Импорт команд Song Request доступен на вкладке «Команды» Bot с Song Request 0.1.2 или новее. Импортированная команда открывается как выключенный черновик и сохраняется только по кнопке «Сохранить».",
+          "Улучшены повторное открытие черновиков и прокрутка диалогов команд при небольшой высоте окна: заголовок, закрытие и действия редактора остаются доступны."
         ]
       },
       "runtimePackage": null
@@ -427,7 +425,7 @@
         "coreApi": 1,
         "id": "namenyx.bot.song-request",
         "displayName": "Song Request",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "description": "YouTube song requests for Bot with moderation, durable queue, visible operator playback and an optional local OBS overlay.",
         "author": "SergeyBushuev",
         "repository": "https://github.com/SergeyBushuev",
@@ -442,7 +440,7 @@
         "dependencies": [
           {
             "id": "namenyx.bot",
-            "version": ">=0.1.10, <1.0.0"
+            "version": ">=0.1.11, <1.0.0"
           }
         ],
         "permissions": [
@@ -518,17 +516,23 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/bot_song_request.namenyxmod",
-        "size": 3069448,
-        "sha256": "c029efd8f4e5471750b1caf994cf5ee3ae48ee57a71227a7444dad5f9b54c304",
-        "signature": "NouAqLpa/UOdJBKKkl1sMbEtYKqGV3dU1FA7GZ6wiMCaUEf7WJOq6Jy8oxlKjKn+Wuu3WJBmOayWnAG/5470Aw=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.05.2/bot_song_request.namenyxmod",
+        "size": 3070594,
+        "sha256": "b7b64fd03b8f7683091c6aeb2211d4c5e45959741c944df190d8711409c84140",
+        "signature": "aDhmaBSJH7StxlUH6DsMr1YK3S7onCzFT+NUtKRgYfAuYQzRctkBrX/QTy6sbW2f4HnFLDDFMhFlPZi7kIYuDw=="
       },
       "releaseNotes": {
         "en": [
-          "Adds moderated YouTube requests with a persistent queue, a visible desktop player and an optional local OBS overlay. Optional channel points requests require a reward owned by the configured Twitch application. Requires Bot 0.1.10 or later."
+          "Adds a Song Request command importer in Bot's Commands tab. Exact occupied names receive the next free suffix; alias and regular-expression overlaps remain visible warnings. Drafts stay disabled until you save and enable them.",
+          "Reorganizes Settings into five collapsible sections while preserving hidden fields and defaults. Reward, YouTube API key, overlay token and overlay operations remain independent.",
+          "Adds importer loading timeout and retry handling, and rejects stale results after context or package changes. Requires Bot 0.1.11 or later, below 1.0.0; Rewards remains optional.",
+          "Fixes the player closing while an empty queue waits for new requests after the final track ends. New tracks can play in the same window; connection-loss detection and explicit stop or close behavior remain active."
         ],
         "ru": [
-          "Добавляет модерируемые YouTube-заявки с сохраняемой очередью, видимым плеером и необязательным локальным оверлеем OBS. Заявкам за баллы канала нужна награда, принадлежащая настроенному Twitch-приложению. Требуется Bot 0.1.10 или новее."
+          "Добавлен импорт команд Song Request на вкладке «Команды» Bot. Для занятого точного имени выбирается следующий свободный суффикс; пересечения с псевдонимами и регулярными выражениями показываются как предупреждения. Черновики остаются выключенными до сохранения и включения.",
+          "Настройки организованы в пять сворачиваемых разделов с сохранением скрытых полей и значений по умолчанию. Операции с наградой, API-ключом YouTube, токеном оверлея и оверлеем выполняются независимо.",
+          "Добавлены таймаут загрузки импортера и повторная попытка; устаревшие результаты после изменения контекста или пакета отклоняются. Требуется Bot 0.1.11 или новее, ниже 1.0.0; Rewards остаётся необязательным.",
+          "Исправлено закрытие плеера при ожидании новых запросов в пустой очереди после завершения последнего трека. Новые треки могут воспроизводиться в том же окне; сохранены обнаружение потери связи, явная остановка и закрытие."
         ]
       },
       "runtimePackage": null
