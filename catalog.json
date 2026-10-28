@@ -357,8 +357,8 @@
         "coreApi": 1,
         "id": "namenyx.bot.raid-follow",
         "displayName": "Raid & Follow",
-        "version": "0.1.9",
-        "description": "Adds configurable Bot responses to Twitch raids and follows.",
+        "version": "0.1.10",
+        "description": "Adds automatic Twitch raid shoutouts and optional Bot responses to raids and follows.",
         "author": "Namenyx Team",
         "repository": "https://github.com/shishiawase/Namenyx-modules",
         "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 18c1.2-3 3.5-4.5 7-4.5s5.8 1.5 7 4.5M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm6-1 2 2 2-2m-2 2V7' fill='none' stroke='%23B47CFF' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E",
@@ -385,10 +385,19 @@
           {
             "id": "twitchApi",
             "scopes": [
-              "moderator:read:followers"
+              "moderator:read:followers",
+              "moderator:manage:shoutouts"
             ],
             "twitchAccount": "broadcaster",
             "twitchEndpoints": [
+              {
+                "method": "GET",
+                "path": "/helix/users"
+              },
+              {
+                "method": "POST",
+                "path": "/helix/chat/shoutouts"
+              },
               {
                 "method": "POST",
                 "path": "/helix/eventsub/subscriptions"
@@ -400,21 +409,17 @@
         "accountCards": []
       },
       "package": {
-        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.02.1/bot_raid_follow.namenyxmod",
-        "size": 315814,
-        "sha256": "d2d377756b7fb7ca89f1a92d47829186b9e2ab117ac7e01c46a2e7f45aa1280c",
-        "signature": "dS8h2C1BO+7nd+SYGj6EdHSD20zoxDk4g8HnHek1L+HRkRcpBiL/mrzZlSaySgGnoCbYVfuezH5y2sDQ0LWjCg=="
+        "url": "https://github.com/shishiawase/Namenyx-modules/releases/download/modules-2026.10.28.1/bot_raid_follow.namenyxmod",
+        "size": 329956,
+        "sha256": "5026a3f6fe07c23fede96ecbecb9bb58b5475c0c56d0fc01f45438e06b788247",
+        "signature": "CKVng871CLkKk7VEmLxgAiVvy3rc7rmVZWS00clKfd6ic0YYsGT/hIHXNhSz4Ck0oYM96knTi2V33E0mThfmCg=="
       },
       "releaseNotes": {
         "en": [
-          "Follow responses now use only Twitch EventSub notifications, without follower-list polling or local duplicate suppression. Requires the updated Core.",
-          "Raid shoutouts use the raider login instead of the display name.",
-          "Settings use revision acknowledgements and bounded delivery retries."
+          "Added an independent automatic raid shoutout switch using the Twitch API. Chat greetings remain optional. Requires Core 0.10.6 and broadcaster shoutout permission."
         ],
         "ru": [
-          "Автоответы на фоллоу работают только по уведомлениям Twitch EventSub, без опроса списка фолловеров и локального подавления повторов. Требуется обновлённый Core.",
-          "Shoutout при рейде использует логин рейдера вместо отображаемого имени.",
-          "Применение настроек подтверждается ревизией; доставка повторяется ограниченное число раз."
+          "Добавлен отдельный переключатель shoutout рейдеру через API Twitch. Приветствие в чате необязательно. Требуются Core 0.10.6 и разрешение владельца на shoutout."
         ]
       },
       "runtimePackage": null
